@@ -1,0 +1,11 @@
+
+streamlit
+speechrecognition
+pyttsx3
+pythoncom
+pypiwin32
+requests
+python-dotenv
+pyaudio
+
+# streamlit run app.py for open streamlit app
