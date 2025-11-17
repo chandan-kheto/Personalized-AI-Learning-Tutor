@@ -43,18 +43,12 @@ Modern and clean design.
 API key stored safely and hidden.
 
 🗂️ Project Structure
-AI-Personalized-Learning-Tutor/
-│
-├── backend/
-│   ├── model.py
-│   ├── .env.example
-│
-├── frontend/
-│   ├── app.py
-│
-├── requirements.txt
-├── README.md
-
+AI-Personalized-Tutor/
+│── app.py
+│── model.py
+│── requirements.txt
+│── .env
+│── __pycache__/
 
 🔧 Installation
 1️⃣ Clone the repository
@@ -77,18 +71,13 @@ Create a new key → copy it.
 
 2️⃣ Add it in backend/.env
 
-Create:
+Create: .env
 
-backend/.env
-
-
-Paste:
-
-OPENROUTER_API_KEY=sk-or-v1-your-key-here
+Paste:  OPENROUTER_API_KEY=sk-or-v1-your-key-here
 
 ▶️ Running the Application
 1️⃣ Run the frontend (Streamlit)
-cd frontend
+
 streamlit run app.py
 
 2️⃣ Your app will open at:
